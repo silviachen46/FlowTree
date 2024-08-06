@@ -1,0 +1,70 @@
+/* .App {
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.react-flow__node-input {
+  font-size: 12px;
+  background: #fff;
+  border: 1px solid #1a192b;
+  border-radius: 3px;
+  text-align: center;
+  padding: 10px;
+}
+
+.react-flow__node-custom {
+  font-size: 12px;
+  background: #eee;
+  border: 1px solid #1a192b;
+  border-radius: 3px;
+  text-align: center;
+  padding: 10px;
+}
+
+.react-flow__node-custom input {
+  width: 100px;
+  padding: 5px;
+  font-size: 12px;
+  margin-right: 5px;
+}
+
+.react-flow__node-custom button {
+  padding: 5px 10px;
+  font-size: 12px;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.react-flow__node-custom button:hover {
+  background: #45a049;
+} */
+
+.App {
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  background-color: #282c34;
+}
+
+.navbar a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #61dafb;
+  border-radius: 4px;
+}
+
+.flow-manager {
+  padding: 20px;
+}

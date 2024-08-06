@@ -1,0 +1,88 @@
+/* feedbackTextNode.css */
+
+.text-node {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    background-color: #f9f9f9;
+    position: relative;
+    min-width: 300px;
+    max-width: 600px;
+    margin: 10px;
+  }
+  
+  .questions-container {
+    margin-bottom: 16px;
+  }
+  
+  .question-item {
+    margin-bottom: 12px;
+  }
+  
+  .question-item label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 4px;
+  }
+  
+  .answer-textarea {
+    width: 100%;
+    height: 60px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+  
+  .submit-button,
+  .delete-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 8px;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover,
+  .delete-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .delete-button {
+    background-color: #dc3545;
+  }
+  
+  .delete-button:hover {
+    background-color: #c82333;
+  }
+  
+  .status {
+    margin-top: 12px;
+    padding: 8px;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+  
+  .status.success {
+    color: #28a745;
+    background-color: #d4edda;
+  }
+  
+  .status.error {
+    color: #dc3545;
+    background-color: #f8d7da;
+  }
+  
+  .response {
+    margin-top: 12px;
+    padding: 8px;
+    border-radius: 4px;
+    background-color: #e9ecef;
+    border: 1px solid #ced4da;
+  }
+  

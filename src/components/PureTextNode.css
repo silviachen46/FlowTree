@@ -1,0 +1,43 @@
+/* Style for the entire text node container */
+.text-node {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    min-width: 300px; /* Minimum width for better visibility */
+    max-width: 600px; /* Maximum width to allow wider textarea */
+    box-sizing: border-box; /* Ensures padding is included in width calculations */
+  }
+  
+  /* Container for the textarea */
+  .textarea-container {
+    width: 100%; /* Ensure it takes full width of text-node */
+    max-height: 300px; /* Set a maximum height for the textarea container */
+    overflow: hidden; /* Hide overflow of the container */
+    display: flex; /* Flexbox to center textarea */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+  }
+  
+  /* Style for the textarea inside the node */
+  .scrollable-textarea {
+    width: 100%; /* Make textarea take the full width of its container */
+    min-width: 100%; /* Ensure it doesn’t exceed the container width */
+    min-height: 100px; /* Minimum height for the textarea */
+    max-height: 100%; /* Set maximum height to fill the container */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 14px;
+    background-color: #fafafa;
+    color: #333;
+    font-family: Arial, sans-serif;
+    line-height: 1.4;
+    overflow: auto; /* Enable scrolling */
+    resize: vertical; /* Prevent resizing by user */
+  }
+  
+  

@@ -1,0 +1,26 @@
+.flow-manager {
+    padding: 20px;
+  }
+  
+  .flow-manager button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .flow-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .flow-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 1000px; /* Adjust width as needed */
+    height: 600px; /* Adjust height as needed */
+    overflow: hidden;
+  }
+  
